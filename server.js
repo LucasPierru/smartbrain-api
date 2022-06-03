@@ -10,10 +10,10 @@ const image = require('./controllers/image');
 const db = knex({
     client: 'pg',
     connection: {
-        host : 'localhost',
-        port : 5432,
+        host : 'postgresql-amorphous-63807',
+        //port : 5432,
         user : 'postgres',
-        password : '1234',
+        password : '',
         database : 'smartbrain'
     }
 });
